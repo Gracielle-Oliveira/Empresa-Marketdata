@@ -1,0 +1,13 @@
+.articles{
+    display:flex;
+
+}
+
+.articles img{
+    width: 60%;
+    height: 35%;
+}
+
+.img-one{
+    height: 900px;
+}

@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100%;
+}
+
+.adress-SP{
+    background-color: #f1f1f2;
+    align-items: center ;
+}
+
+.adress-C{
+    background-color: #f1f1f2;
+}
+
+.contact{
+    background-color: rgb(219, 219, 219);
+    
+    cursor: pointer;
+}
+
+.contact:hover {
+    background: #ffb401;
+}
+
