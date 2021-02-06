@@ -3,6 +3,7 @@
   width: 100vw;
   height: 25vh;
   margin-left: 0;
+  padding: 0;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -21,20 +22,30 @@
 }
 
 .br{
-  
     border: 2px gray solid;
     border-radius:0.25rem;
-    width: 5%;
+    width: 35%;
     margin-top: 0;
     margin-bottom: 75%;  
     opacity: 0.6;
 }
 
 .text{
-  font-weight: 1000px;
+  font-weight: 100px;
 }
 
+.featured{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+.image{
+  margin-left: 15rem;
+}
 
+.text-one{
+  margin-right: 15rem;
+}
 
 

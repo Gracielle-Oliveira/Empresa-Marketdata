@@ -1,0 +1,42 @@
+.service{
+    background-color: #162438;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.fisrt{
+    display: inline;
+    justify-content: space-between;
+}
+
+.first-square{
+    width: 5px; 
+    height: 5px; 
+    background-color: #ffb401;
+}
+
+.second-square{
+    width: 5px; 
+    height: 5px; 
+    background-color: #02cdea;
+}
+
+.three-square{
+    width: 5px; 
+    height: 5px; 
+    background-color: #00cc8b;
+}
+
+.four-square{
+    width: 5px; 
+    height: 5px; 
+    background-color: #9064a5;
+}
+
+.five-square{
+    width: 5px; 
+    height: 5px; 
+    background-color: #EE255c;
+}
+
