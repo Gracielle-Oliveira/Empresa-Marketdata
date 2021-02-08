@@ -1,13 +1,43 @@
 .articles{
     display:flex;
+    justify-content: space-between;
 
 }
 
 .articles img{
-    width: 60%;
-    height: 35%;
+    margin-top: 50px;
+    width: 25rem;
+    height: 25rem;
 }
 
-.img-one{
-    height: 900px;
+h6{
+    font-family: 'HelveticaNeue', sans-serif;
+    font-weight: 300px;
+    color: #5b626d;
+    
 }
+
+p{
+    font-family: 'HelveticaNeue', sans-serif;
+    font-weight: 800%;
+    color: #162438;
+    
+}
+
+.img-one:hover,
+.img-two:hover,
+.img-three:hover {
+
+    background: #162438;
+    color: white;
+    
+}
+
+
+.img-one:hover p,
+.img-two:hover p,
+.img-three:hover p{
+    background: #162438;
+    color: white;
+}
+
