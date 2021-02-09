@@ -7,18 +7,21 @@ import { ArticlesComponent } from './articles/articles.component';
 import { ListComponent } from './list/list.component';
 import { FooterComponent } from './footer/footer.component';
 
-
+import { SidebarModule } from 'ng-sidebar';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ArticlesComponent,
     ListComponent,
-    FooterComponent
+    FooterComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    SidebarModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
